@@ -30,6 +30,9 @@ pipeline:
                     image: alpine
                     shell: Sh
                     command: echo "Welcome to Harness CI"
+                  when:
+                    stageStatus: All
+                  failureStrategies: []
           platform:
             os: Linux
             arch: Amd64
