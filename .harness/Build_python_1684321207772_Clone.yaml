@@ -58,3 +58,4 @@ pipeline:
   tags: {}
   name: Build python - Clone
   allowStageExecutions: true
+  timeout: 20s
