@@ -10,8 +10,7 @@ pipeline:
   identifier: Build_python_1684321207772_Clone
   tags: {}
   name: Build python - Clone
-  allowStageExecutions: true
-  timeout: 20s
+  allowStageExecutions: false
   stages:
     - stage:
         name: Build
