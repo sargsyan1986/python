@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1684321207772-pr-trigger-input-set
+  identifier: Build_python_1684321207772prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Jopa
+  pipeline:
+    identifier: Build_python_1684321207772
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
